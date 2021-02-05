@@ -1,0 +1,170 @@
+<html>
+	<head>
+		<title>HTML project by SIFATH</title>
+		<style>
+			.wel{
+				box-shadow: 0 0 10px;
+			}
+			#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: green;
+  color: white;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">A.K.M SIFATH ULLAH</h1>
+		<h2 align="center"><img src="c.jpg" height="250px" width="250px"></h2>
+		<br><p style="text-align:center;font-size:40;color:green;" class="wel"> Welcome to my Website</p>
+		<p align="center",style="font-size:50"> My name is A.K.M SIFATH ULLAH. </br>
+		I am a student of DIU. </br>
+		My Id :181-15-1772 </br> 
+		I am 22 years old.</p> 
+		<b><p align="center",style="font-size:50;color:black;">Here is my Educational details :</p>
+			<table id="customers">
+				<tr>
+				  <th>Exam Name</th>
+				  <th>Passing year</th>
+				  <th>GPA</th>
+				</tr>
+				<tr>
+				  <td>SSC</td>
+				  <td>2014</td>
+				  <td>5</td>
+				</tr>
+				<tr>
+					<td>HSC</td>
+					<td>2016</td>
+					<td>5</td>
+				  </tr>
+				  <tr>
+					<td>JSC</td>
+					<td>2011</td>
+					<td>5</td>
+				  </tr>
+				
+			  </table>
+
+			  <br>
+			  <br>
+			  <br>
+
+
+			  <div class="container">
+				<form action="">
+				<div class="row">
+				  <div class="col-25">
+					<label for="fname">First Name</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label for="lname">Last Name</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label for="country">Country</label>
+				  </div>
+				  <div class="col-75">
+					<select id="country" name="country">
+					  <option value="australia">Australia</option>
+					  <option value="canada">Canada</option>
+					  <option value="usa">USA</option>
+					</select>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label for="subject">Subject</label>
+				  </div>
+				  <div class="col-75">
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				  </div>
+				</div>
+				<div class="row">
+				  <input type="submit" value="Submit">
+				</div>
+				</form>
+			  </div>
+		
+		<p style="text-align:center">Developed By A.K.M SIFATH ULLAH</p>
+	<body>
+</html>
